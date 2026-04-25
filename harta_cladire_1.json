@@ -1,0 +1,23 @@
+{
+  "nume_cladire": "Cladire Demo - 7 camere",
+  "descriere": "Harta originala cu camerele A-G, iesire prin F",
+  "iesiri_sigure": ["F"],
+  "pozitii_vizuale": {
+    "A": [180, 120],
+    "B": [550, 420],
+    "C": [180, 300],
+    "D": [280, 510],
+    "E": [430, 260],
+    "F": [680, 120],
+    "G": [700, 500]
+  },
+  "graf": {
+    "A": { "C": 10, "F": 1 },
+    "B": { "D": 11, "E": 1, "F": 1, "G": 1 },
+    "C": { "A": 10, "E": 1, "D": 1 },
+    "D": { "C": 1, "B": 11 },
+    "E": { "C": 1, "F": 1, "B": 1 },
+    "F": { "A": 1, "E": 1, "B": 1, "G": 1 },
+    "G": { "F": 1, "B": 1 }
+  }
+}

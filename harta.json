@@ -1,0 +1,34 @@
+{
+  "iesiri_sigure": ["F"],
+  "camere": {
+    "A": { "x": 180, "y": 120 },
+    "B": { "x": 550, "y": 420 },
+    "C": { "x": 180, "y": 300 },
+    "D": { "x": 280, "y": 510 },
+    "E": { "x": 430, "y": 260 },
+    "F": { "x": 680, "y": 120 },
+    "G": { "x": 700, "y": 500 }
+  },
+  "coridoare": [
+    { "n1": "A", "n2": "C", "distanta": 10 },
+    { "n1": "A", "n2": "F", "distanta": 1 },
+    { "n1": "B", "n2": "D", "distanta": 11 },
+    { "n1": "B", "n2": "E", "distanta": 1 },
+    { "n1": "B", "n2": "F", "distanta": 1 },
+    { "n1": "B", "n2": "G", "distanta": 1 },
+    { "n1": "C", "n2": "D", "distanta": 1 },
+    { "n1": "C", "n2": "E", "distanta": 1 },
+    { "n1": "E", "n2": "F", "distanta": 1 },
+    { "n1": "F", "n2": "G", "distanta": 1 }
+  ],
+  "dispozitive_esp": {
+    "XX:XX:XX:XX:XX:XX": {
+      "camera_senzor": "C",
+      "usa_destinatie": "E"
+    },
+    "YY:YY:YY:YY:YY:YY": {
+      "camera_senzor": "B",
+      "usa_destinatie": "F"
+    }
+  }
+}
